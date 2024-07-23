@@ -41,7 +41,19 @@ In the automotive market, accurately determining the future value of a vehicle i
 
 The proposed project aims to test the accuracy of a predictive model capable of estimating the future market price of a car based on a series of characteristics and technical specifications. This project could have practical applications in providing accurate and reliable predictions to support both buyers and sellers in the process of evaluating the value of cars.
 
+## Problem formulation
 
+Key aspects of the problem include:
+
+Data Collection: Use of a comprehensive data set where various car attributes such as make, model, year of production, mileage and condition are present.
+
+Data Preprocessing: Cleaning and preprocessing the data to manage missing values, outliers, and ensure the dataset's consistency·
+
+Feature Selection: Identifying the most significant features that influence car prices to enhance the model's accuracy and efficiency·
+
+Model Development: Trying with various machine learning algorithms (linear regression and random forest) to determine the most effective model for price prediction.
+
+Model Evaluation: Utilizing metric such as R-squared (R²) to assess the predictive model's performance·.
 
 
 
