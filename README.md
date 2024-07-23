@@ -43,6 +43,8 @@ The proposed project aims to test the accuracy of a predictive model capable of 
 
 ## Problem formulation
 
+The main problem addressed in this project is the need for a reliable, data-driven approach to predicting the future market price of a car. Leveraging machine learning techniques, the objective is to analyse the results of predictive models that can provide accurate estimates based on specific car attributes.
+
 Key aspects of the problem include:
 
 Data Collection: Use of a comprehensive data set where various car attributes such as make, model, year of production, mileage and condition are present.
