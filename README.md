@@ -47,15 +47,15 @@ The main problem addressed in this project is the need for a reliable, data-driv
 
 Key aspects of the problem include:
 
-Data Collection: Use of a comprehensive data set where various car attributes such as make, model, year of production, mileage and condition are present.
+* **Data Collection**: Use of a comprehensive data set where various car attributes such as make, model, year of production, mileage and condition are present.
 
-Data Preprocessing: Cleaning and preprocessing the data to manage missing values, outliers, and ensure the dataset's consistency·
+* **Data Preprocessing**: Cleaning and preprocessing the data to manage missing values, outliers, and ensure the dataset's consistency·
 
-Feature Selection: Identifying the most significant features that influence car prices to enhance the model's accuracy and efficiency·
+* **Feature Selection**: Identifying the most significant features that influence car prices to enhance the model's accuracy and efficiency·
 
-Model Development: Trying with various machine learning algorithms (linear regression and random forest) to determine the most effective model for price prediction.
+* **Model Development**: Trying with various machine learning algorithms (linear regression and random forest) to determine the most effective model for price prediction.
 
-Model Evaluation: Utilizing metric such as R-squared (R²) to assess the predictive model's performance·.
+* **Model Evaluation**: Utilizing metric such as R-squared (R²) to assess the predictive model's performance·.
 
 
 
