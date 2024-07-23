@@ -1,10 +1,7 @@
 # Car price prediction
 
-<h1 align="center"> PyPac </h1>
-
-
 <p align="center"> 
-  <img src="miscellaneous/Logo.png" alt="Image pacman game" height="282px" width="637">
+  <img src="dataset.cover.jpg" alt="Car price prediction" height="282px" width="637">
 </p>
 
 
