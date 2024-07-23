@@ -17,7 +17,7 @@
 1. [Installation](#installation)
 2. [Project Goal](#project-goal)
 3. [Problem Formulation](#problem-formulation)
-4. [Solution Design](#solution-design)
+4. [Model overview](#model-overview)
 5. [Conclusions](#conclusions)
 
 ***
@@ -43,20 +43,25 @@ The proposed project aims to test the accuracy of a predictive model capable of 
 
 ## Problem formulation
 
-The main problem addressed in this project is the need for a reliable, data-driven approach to predicting the future market price of a car. Leveraging machine learning techniques, the objective is to analyse the results of predictive models that can provide accurate estimates based on specific car attributes.
+The main problem addressed in this project is the need for a reliable, data-driven approach to predicting the future market price of a car. Leveraging machine learning techniques, the objective is to analyze the results of predictive models that can provide accurate estimates based on specific car attributes.
 
 Key aspects of the problem include:
 
-* **Data Collection**: Use of a comprehensive data set where various car attributes such as make, model, year of production, mileage and condition are present.
+* **Data Collection**: Use of a comprehensive data set where various car attributes such as make, model, year of production, mileage, and condition are present.
 
 * **Data Preprocessing**: Cleaning and preprocessing the data to manage missing values, outliers, and ensure the dataset's consistency·
 
 * **Feature Selection**: Identifying the most significant features that influence car prices to enhance the model's accuracy and efficiency·
 
-* **Model Development**: Trying with various machine learning algorithms (linear regression and random forest) to determine the most effective model for price prediction.
+* **Model Development**: Trying various machine learning algorithms (linear regression and random forest) to determine the most effective model for price prediction.
 
 * **Model Evaluation**: Utilizing metric such as R-squared (R²) to assess the predictive model's performance·.
 
+## Model Overview
+For the estimation of the future price, we compared the following models:
 
+* **Linear regression:**  The reasons that led us to consider this model for our project are simplicity, linear regression is easy to implement and interpret and it provides a good basis for understanding relationships between features. Speed, it is computationally less intensive than more complex models, making it suitable for small to medium-sized datasets. Linearity, the model assumes a linear relationship between the dependent variable (price) and the independent variables (features), which is often a good initial approximation.
+
+* **Random Forest:** The reasons that led us to consider this model for our project are, multiple decision trees that in this model construct a series of decision trees during training and produce the average of the tree predictions to obtain a final prediction. This approach reduces variance and improves robustness compared to individual decision trees. Robustness and stability, due to the combination of multiple trees and random feature selection, the Random Forest tends to be less sensitive to noisy data and outliers than single decision trees. Interpretability, Although less interpretable than single trees, the Random Forest provides feature relevance, which can be used to understand which variables contribute most to predictions.
 
 
