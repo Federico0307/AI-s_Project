@@ -1,7 +1,7 @@
 # Car price prediction
 
 <p align="center"> 
-  <img src="dataset.cover.jpg" alt="Car price prediction" height="282px" width="637">
+  <img src="dataset-cover.jpg" alt="Car price prediction" height="282px" width="637">
 </p>
 
 
@@ -21,3 +21,14 @@
 5. [Conclusions](#conclusions)
 
 ***
+
+## Installation
+
+-Download the ZIP code or clone the repository with
+ '''bash
+ git clone https://github.com/Federico0307/AI-s_Project
+ '''
+- Install the requirements with
+  '''bash
+  pip3 install -r requirements.txt
+  '''  
