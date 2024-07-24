@@ -17,7 +17,7 @@
 1. [Installation](#installation)
 2. [Project Goal](#project-goal)
 3. [Problem Formulation](#problem-formulation)
-4. [Model Overview](#model-overview)
+4. [Models Overview](#model-overview)
 5. [Conclusions](#conclusions)
 
 ***
