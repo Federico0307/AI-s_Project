@@ -52,19 +52,38 @@ Key aspects of the problem include:
   <img src="dataset_example.png" alt="dataset" height="282px" width="637">
 </p>
 
-* **Data Preprocessing**: Cleaning and preprocessing the data to manage missing values, outliers, and ensure the dataset's consistency·
+* **Data Preprocessing**: Cleaning and preprocessing the data to manage missing values, and outliers, and ensure the dataset's consistency.
 
-* **Feature Selection**: Identifying the most significant features that influence car prices to enhance the model's accuracy and efficiency·
+* **Feature Selection**: Identifying the most significant features that influence car prices to enhance the model's accuracy and efficiency.
 
 * **Model Development**: Trying various machine learning algorithms (linear regression and random forest) to determine the most effective model for price prediction.
 
-* **Model Evaluation**: Utilizing metric such as R-squared (R²) to assess the predictive model's performance·.
+* **Model Evaluation**: Utilizing metrics such as R-squared (R²) and cross-validation to assess the predictive model's performance.
 
 ## Model Overview
 For the estimation of the future price, we compared the following models:
 
-* **Linear regression:**  The reasons that led us to consider this model for our project are simplicity, linear regression is easy to implement and interpret and it provides a good basis for understanding relationships between features. Speed, it is computationally less intensive than more complex models, making it suitable for small to medium-sized datasets. Linearity, the model assumes a linear relationship between the dependent variable (price) and the independent variables (features), which is often a good initial approximation.
+* **Linear regression:** Linear Regression is a simple yet powerful statistical method used to model the relationship between a dependent variable and one or more independent variables. The goal is to find the best-fitting line (or hyperplane in multiple dimensions) that predicts the dependent variable based on the independent variables
 
-* **Random Forest:** The reasons that led us to consider this model for our project are, multiple decision trees that in this model construct a series of decision trees during training and produce the average of the tree predictions to obtain a final prediction. This approach reduces variance and improves robustness compared to individual decision trees. Robustness and stability, due to the combination of multiple trees and random feature selection, the Random Forest tends to be less sensitive to noisy data and outliers than single decision trees. Interpretability, Although less interpretable than single trees, the Random Forest provides feature relevance, which can be used to understand which variables contribute most to predictions.
+  The reasons that led us to consider this model for our project are: simplicity, linear regression is easy to implement and interpret and it provides a good basis for understanding relationships between features. Speed, is computationally less intensive than more   
+  complex models, making it suitable for small to medium-sized datasets. Linearity, the model assumes a linear relationship between the dependent variable (price) and the independent variables (features), which is often a good initial approximation.
 
+* **Random Forest:** Random Forest is a versatile and powerful ensemble learning method used for classification and regression tasks. It operates by constructing many decision trees during training and outputting the mode of the classes (classification) or mean prediction (regression) of the individual trees. This method leverages both bootstrapping (sampling with replacement) and feature randomness (considering a random subset of features at each split) to create a diverse set of trees.
+
+  The reasons that led us to consider this model for our project are: multiple decision trees that in this model construct a series of decision trees during training and produce the average of the tree predictions to obtain a final prediction. This approach reduces   
+  variance and improves robustness compared to individual decision trees. Robustness and stability, due to the combination of multiple trees and random feature selection, the Random Forest tends to be less sensitive to noisy data and outliers than single decision trees.   Interpretability, Although less interpretable than single trees, the Random Forest provides feature relevance, which can be used to understand which variables contribute most to predictions.
+
+## Conclusions
+
+In conclusion, we present the results obtained. For greater completeness, and a more accurate comparison, in addition to evaluating the performance of the two models tested through cross-validation. 
+
+Generally, the results were very good and correlated with all the evaluation methods tested. The best results were obtained with the Linear Regression model where we obtained a value for R Squared Error of 0.9999999997824319 and in the cross-validation [1. 1. 1. 1. 1.] while for the Random Forest model, we obtained slightly lower results than for the Linear Regression, R Squared error 0.9995321269374119 and cross-validation [0.99490502 0.99486784 0.99325442 0.9949444 0.99378503].
+
+<p align="center"> 
+  <img src="linear_regression_ev.png" alt="Linear Regression" height="500px" width="500">
+  <img src="random_forest_ev.png" alt="Random Forest" height="500px" width="500">
+</p>
+
+
+  
 
