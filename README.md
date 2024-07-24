@@ -48,6 +48,9 @@ The main problem addressed in this project is the need for a reliable, data-driv
 Key aspects of the problem include:
 
 * **Data Collection**: Use of a comprehensive data set where various car attributes such as make, model, year of production, mileage, and condition are present.
+  <p align="center"> 
+  <img src="dataset_example.png" alt="dataset" height="282px" width="637">
+</p>
 
 * **Data Preprocessing**: Cleaning and preprocessing the data to manage missing values, outliers, and ensure the dataset's consistency·
 
