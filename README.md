@@ -1,7 +1,7 @@
 # Car price prediction
 
 <p align="center"> 
-  <img src="dataset-cover.jpg" alt="Car price prediction" height="282px" width="637">
+  <img src="/graphics and presentation/dataset-cover.jpg" alt="Car price prediction" height="282px" width="637">
 </p>
 
 
@@ -49,7 +49,7 @@ Key aspects of the problem include:
 
 * **Data Collection**: Use of a comprehensive data set where various car attributes such as make, model, year of production, mileage, and condition are present.
   <p align="center"> 
-  <img src="dataset_example.png" alt="dataset" height="282px" width="637">
+  <img src="/graphics and presentation/dataset_example.png" alt="dataset" height="282px" width="637">
 </p>
 
 * **Data Preprocessing**: Cleaning and preprocessing the data to manage missing values, and outliers, and ensure the dataset's consistency.
@@ -80,8 +80,8 @@ In conclusion, we present the results obtained. For greater completeness, and a 
 Generally, the results were very good and correlated with all the evaluation methods tested. The best results were obtained with the Linear Regression model where we obtained a value for R Squared Error of 0.9999999997824319 and in the cross-validation [1. 1. 1. 1. 1.] while for the Random Forest model, we obtained slightly lower results than for the Linear Regression, R Squared error 0.9995321269374119 and cross-validation [0.99490502 0.99486784 0.99325442 0.9949444 0.99378503].
 
 <p align="center"> 
-  <img src="linear_regression_ev.png" alt="Linear Regression" height="500px" width="500">
-  <img src="random_forest_ev.png" alt="Random Forest" height="500px" width="500">
+  <img src="/graphics and presentation/linear_regression_ev.png" alt="Linear Regression" height="500px" width="500">
+  <img src="/graphics and presentation/random_forest_ev.png" alt="Random Forest" height="500px" width="500">
 </p>
 
 
