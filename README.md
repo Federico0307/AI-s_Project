@@ -83,11 +83,11 @@ Generally, the results were very good and correlated with all the evaluation met
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="/graphics and presentation/linear_regression_ev.png" alt="Preprocessing Steps" width="500" height="450">
+      <img src="/graphics and presentation/linear_regression_ev.png" alt="Preprocessing Steps"  height="450" width="470">
       <p><em>Figure 1:</em> Results of Linear Regression model.</p>
     </td>
     <td style="text-align: center;">
-      <img src="/graphics and presentation/random_forest_ev.png" alt="Linear Regression Results" height="450" width="500">
+      <img src="/graphics and presentation/random_forest_ev.png" alt="Linear Regression Results" height="450" width="470">
       <p><em>Figure 2:</em> Results of Random Forest model.</p>
     </td>
   </tr>
