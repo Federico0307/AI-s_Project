@@ -119,7 +119,7 @@ from sklearn.model_selection import cross_val_score
 """### Linear Regression"""
 
 model = LinearRegression(n_jobs = 5)
-cross_val_results = cross_val_score(model, X_test, y_test, cv=5, scoring = 'r2')
+cross_val_results = cross_val_score(model, X, y, cv=5, scoring = 'r2')
 
 print("Results for Linear Regression")
 print("*******************************")
@@ -129,7 +129,7 @@ print("Mean R2: ", cross_val_results.mean())
 """### Random Forest"""
 
 model = RandomForestRegressor(random_state = None)
-cross_val_results = cross_val_score(model, X_test, y_test, cv=5, scoring = 'r2')
+cross_val_results = cross_val_score(model, X, y, cv=5, scoring = 'r2')
 
 print("Results for Random Forest")
 print("*******************************")
