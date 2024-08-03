@@ -77,7 +77,7 @@ For the estimation of the future price, we compared the following models:
 
 In conclusion, we present the results obtained. For greater completeness, and a more accurate comparison, in addition to evaluating the performance of the two models tested through cross-validation. 
 
-Generally, the results were very good and correlated with all the evaluation methods tested. The best results were obtained with the Linear Regression model where we obtained a value for R Squared Error of 0.9999999997824319 and in the cross-validation [1. 1. 1. 1. 1.] while for the Random Forest model, we obtained slightly lower results than for the Linear Regression, R Squared error 0.9995321269374119 and cross-validation [0.99490502 0.99486784 0.99325442 0.9949444 0.99378503].
+Overall, the results were quite positive and aligned with all the evaluation methods tested. The Linear Regression model yielded the best results, with an R Squared Error of 0.9999999997824319 and a cross-validation score of [1. 1. 1. 1. 1.]. On the other hand, the Random Forest model produced slightly lower results than the Linear Regression, with an R Squared error of 0.9995321269374119 and a cross-validation score of [0.99490502 0.99486784 0.99325442 0.9949444 0.99378503].
 
 
 <table>
